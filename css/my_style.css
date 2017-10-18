@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css?family=Exo+2|Nosifer');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+body {
+  font-family: "Exo 2";
+
+  -webkit-font-smoothing: antialiased;    /*для гладкого шрифта на моб устр*/
+  -webkit-overflow-scrolling: touch;
+}
+
+body p {
+  font-size: 15px;
+}
+/*ШАПКА*/
+  .navbar-header a {
+  font-family: "Nosifer";
+  font-size: 15px;
+}
+
+.navbar-inverse .navbar-brand {
+  color: #00CED1;
+}
+
+.centered {
+  text-align: center;
+}
+/*ЗАСТАВКА*/
+
+#headwrapper {
+  background: url(../images/back-img2.jpg) no-repeat center top;
+  padding-top: 50px;
+  text-align: center;
+  background-attachment: relative;
+  background-position: center;
+  min-height: 450px;
+  width: 100%;
+  background-size: 100%;
+
+   -webkit-background-size: cover;    /*для адаптивности на моб устр*/
+      -moz-background-size: cover;  /*для мозилы*/
+        -o-background-size: cover;  /*для оперы*/
+          -background-size: cover;  /*для остальных*/
+}
+
+#headwrapper h4 {
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 1em white;
+  margin-top: 100px;
+  font-size: 35px;
+  font-weight: 50;
+  letter-spacing: 1px;
+}
+
+#headwrapper h1 {
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 1em white;
+  font-size: 45px;
+  font-weight: 550;
+  letter-spacing: 2px;
+}
+
+#headwrapper h1:hover {
+  text-shadow: 1px 1px 2px black, 0 0 2em #87CEEB;
+}
+#headwrapper h4:hover {
+  text-shadow: 1px 1px 2px black, 0 0 2em #87CEEB;
+}
+/*КОНТЕНТ*/
+
+#content {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: #DCDCDC;
+  padding-left: 50px;
+  padding-right: 50px;
+
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+}
+
+#content h3 {
+  font-weight: lighter;
+  font-size: 35px;
+  margin-bottom: 20px;
+  color: #696969;
+  text-shadow: 1px 1px gray;
+}
+
+#content h5 {
+  color: #4682B4;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.tilt img:hover {
+  -moz-transition: all 3s ease-out;
+  -o-transition: all 3s ease-out;
+  -webkit-transition: all 3s ease-out;
+
+  -webkit-transform: rotate(-360deg);
+     -moz-transform: rotate(-360deg);
+       -o-transform: rotate(-360deg);
+          transform: rotate(-360deg);
+}
+.tilt img {
+  margin: 0 auto ;
+}
+
+/*ПОРТФОЛИО*/
+
+#portfolio {
+  padding-top: 50px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  background: #E8E9EA;
+
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+}
+
+#portfolio p {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+#portfolio h3 {
+  font-weight: lighter;
+  font-size: 35px;
+  margin-bottom: 20px;
+  color: #696969;
+  text-shadow: 1px 1px gray;
+}
+
+#portfolio img {
+  max-width: 75%;
+  max-height: 75%;
+  margin-top: 15px;
+  border-radius: 20px;
+}
+
+.zoom_img img:hover{
+
+  box-shadow: 1px 1px 4px gray, 0 0 3em #C7E0FD;
+  background: white;
+
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+
+ -webkit-transform: scale(1.3);
+ -moz-transform: scale(1.3);
+ -o-transform: scale(1.3);
+ }
+
+/*ВТОРОЙ КОНТЕНТ*/
+
+#content_2{
+  background: #DCDCDC;
+  padding-top: 30px;
+  padding-bottom: 25px;
+}
+
+#content_2 h3 {
+  font-weight: lighter;
+  font-size: 35px;
+  margin-bottom: 20px;
+  color: #696969;
+  text-shadow: 1px 1px gray;
+}
+
+#content_2 h5 {
+  color: #4682B4;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.change img {
+  margin: 0 auto;
+}
+/*РЕГИСТРАЦИЯ*/
+
+#register {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background: #1D1F2A;
+  min-height: 300px;
+}
+#register img {
+  margin-top: 90px;
+}
+#register h3 {
+  font-family: "Josefin Sans";
+  color: white;
+  font-size: 35px;
+  margin-top: 80px;
+  text-shadow: 1px 1px 1px white;
+}
+
+#register button {
+  margin-top: 90px;
+  font-family:"Josefin Sans";
+  font-size: 25px;
+}
+
+.btn_reg {
+  background: #0680FB;
+  border-radius: 10px;
+  box-shadow: 1px 1px 2px #F1F6FD;
+}
+
+.btn_reg span {
+  color: #ffffff;
+}
+
+.btn_reg:hover {
+  background: #016DD9;
+  box-shadow: 2px 2px 3px #F1F6FD;
+}
+
+.btn_reg:focus {
+  background: #016DD9;
+  box-shadow: 2px 2px 3px #F1F6FD;
+}
+/*ФОРМА*/
+
+#form {
+  background: url(../images/form.jpeg) no-repeat center top;
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+  -webkit-background-size: cover;    /*для адаптивности на моб устр*/
+     -moz-background-size: cover;  /*для мозилы*/
+       -o-background-size: cover;  /*для оперы*/
+         -background-size: cover;  /*для остальных*/
+}
+
+#form h3 {
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+  text-shadow: 1px 1px 2px black;
+}
+
+.my_form {
+  opacity: 0.8;
+}
+
+
+#form p {
+  color: #ffffff;
+  font-size: 15px;
+  text-align: center;
+  text-shadow: 1px 1px 2px black, 0 0 2em black;
+}
+
+.button {
+  width: auto;
+  background: #2E2E2E;
+  border-radius: 15px;
+  box-shadow: 1px 1px 1px #151515;
+  padding-top: 3px;
+
+}
+
+.button span {
+  color: #FAFAFA;
+  letter-spacing: 3px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.button span:hover {
+  color: #2ECCFA;
+  text-shadow: 0px -1px #000000;
+}
+#form button:hover{
+  color: #2ECCFA;
+  text-shadow: 0px -1px #000000;
+}
+
+/*ФУТЕР*/
+
+#footer {
+  background: #1D1F2A;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  color: white;
+}
+#footer p {
+  font-family: "Nosifer";
+  color: #00CED1;
+  font-size: 15px;
+  margin-top: 13px;
+}
+
+#footer i {
+  margin: 20px;
+  font-size: 30px;
+}
+#footer i:hover {
+  color: #ff7878;
+  text-shadow: 1px 1px 1px gray;
+
+
+}
+
+#footer img:hover{
+
+          -moz-transition: all 3s ease-out;
+          -o-transition: all 3s ease-out;
+          -webkit-transition: all 3s ease-out;
+
+          -webkit-transform: rotate(50deg);
+             -moz-transform: rotate(50deg);
+               -o-transform: rotate(50deg);
+                  transform: rotate(50deg);
+}
+
+
+/**/
